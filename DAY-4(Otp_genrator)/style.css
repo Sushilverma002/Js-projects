@@ -1,0 +1,67 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family:sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(22, 22, 83);
+}
+.container{
+    display: flex;
+    justify-content: left;
+    align-items:start;
+    flex-direction: column;
+    margin-top: 180px;
+    margin-left: 120px;
+}
+.container h1{
+    color: #fff;
+    font-size: 60px;
+}
+.container span{
+    color:green ;
+    border-bottom: 5px solid green;
+}
+.password img{
+    width: 30px;
+    cursor: pointer;
+}
+.password{
+    margin: 20px 0px 30px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    background: #fff;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 15px;
+    border-radius: 5px;
+
+}
+.password input{
+    border: 0;
+    outline: 0;
+    font-size: 24px;
+}
+/* button otp genrator */
+.container button img{
+    width: 28px;
+    margin-right: 10px;
+}
+.container button{
+    border: 0;
+    outline: 0;
+    background: #0195;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 300;
+    color: #fff;
+    font-size: 22px;
+}
