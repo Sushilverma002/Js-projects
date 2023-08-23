@@ -1,0 +1,64 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: #d59bf6;
+}
+.container{
+    display: flex;
+    align-items:start;
+    justify-content: left;
+    flex-direction: column;
+    padding-left:10% ;
+    padding-top: 4%;
+    min-height: 100vh;
+}
+.container h1{
+    font-size: 40px;
+    color: #fff;
+    padding-bottom:20px;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+.container h1 img{
+    width: 50px;
+}
+#createNotes button{
+    outline: none;
+    border: 0;
+    border-radius: 40px;
+    background:linear-gradient(#1c1a99 , #fff) ;
+    cursor: pointer;
+    padding: 15px 25px;
+    font-weight: bold;
+    font-size: 16px;
+    color: black;
+
+}
+#createNotes button img{
+    width: 20px;
+    margin-right: 8px;
+}
+.input-box{
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    min-height: 150px;
+    background: #fff;
+    color: #333;
+    padding: 20px;
+    margin: 20px 0;
+    outline: none;
+    border-radius: 5px;
+}
+.input-box img{
+    cursor: pointer;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    width: 25px;
+}
