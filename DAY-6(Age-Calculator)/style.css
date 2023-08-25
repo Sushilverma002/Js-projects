@@ -1,0 +1,24 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(196,94,139);
+}
+.container{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 150px;
+    width: 80%;
+    font-size: 20px;
+    margin-left: 100px;
+}
+
+.container span{
+    color: yellow;
+    display: flex;
+}
