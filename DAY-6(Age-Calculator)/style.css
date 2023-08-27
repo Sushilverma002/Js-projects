@@ -8,17 +8,70 @@ body{
     background: rgb(196,94,139);
 }
 .container{
-    display: flex;
-    align-items: start;
-    justify-content: center;
-    flex-direction: column;
-    margin-top: 150px;
-    width: 80%;
-    font-size: 20px;
-    margin-left: 100px;
+   color: #fff;
+    min-height: 100vh;
+    width: 100%;
+    padding: 10px;
+}
+.calculator{
+    width: 100%;
+    max-width: 600px;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.calculator h1{
+    font-size: 60px;
 }
 
 .container span{
     color: yellow;
     display: flex;
+}
+.input-box{
+    padding: 30px;
+    background: whitesmoke;
+    border-radius: 15px;
+    margin: 40px 0px;
+    display: flex;
+    align-items: center;
+}
+.input-box input{
+    outline: 0;
+    order: 0;
+    flex: 1;
+    margin-right:20px ;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 10px 15px;
+    position: relative;
+}
+.input-box button{
+    border: 0;
+    outline: 0;
+    background: #ffff76;
+    padding: 15px 30px;
+    border-radius: 5px;
+    color: #333;
+    cursor: pointer;
+}
+/* so when ever we click on date section it must open the date for choose so */
+.input-box input::-webkit-calender-picker-indicator{
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: auto;
+    height: auto;
+    position: absolute;
+    background-position: calc(100% -10px);
+    background-size: 30px;
+    cursor: pointer;
+}
+#result{
+    font-size: 20px;
+    display: flex;
+    
+}
+#result span{
+    color: #ffff76;
 }
