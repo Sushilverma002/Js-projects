@@ -1,0 +1,28 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.darkMode{
+    text-decoration: none;
+    list-style: none;
+    margin: 10px;
+
+}
+#icondark{
+    cursor: pointer;
+    width: 30px;
+}
+
+/* create root color and primary color */
+:root{
+    --primary-color: #edf2fc;
+    --secondary-color:#212121;
+}
+.darkMode{
+    --primary-color:#000106;
+    --secondary-color:#fff;
+}
+.conatiner{
+    background: var(--primary-color);
+}
